@@ -1,18 +1,20 @@
 /**
  * @type {import('next').NextConfig}
  */
+ 
+ /*basePath: '/next-blog',*/
 const nextConfig = {
-  /*basePath: '/next-blog',*/
+  
   
   output: "export",
   images: {
-    /*loader: "akamai",*/
+   
     path: "",
 	
 	
 	unoptimized: true  },
   
-  assetPrefix: "./",
+  /*assetPrefix: "./",*/
 };
 
 export default nextConfig;
