@@ -2,23 +2,14 @@
  * @type {import('next').NextConfig}
  */
  
- /*basePath: '/next-blog',*/
-const nextConfig = {
-  
-  
+const nextConfig = { 
   output: "export",
   images: {
-   
-    path: "",
-	
-	
+    path: "",	
 	unoptimized: true  },
-  
-  /*assetPrefix: "./",*/
 };
 
 export default nextConfig;
-
 
 
 /** @type {import('next').NextConfig} */
@@ -27,6 +18,5 @@ export default nextConfig;
 	output: 'export',
 	images: { unoptimized: true } 
 }
-
 module.exports = nextConfig*/
 
