@@ -21,19 +21,19 @@ export default function CV() {
 	<li>M.Sc in Electronic Engineering</li>
 	<li>B.Sc (Hons.) in Electrical & Electronic Engineering</li>
 	</ul>
-	
+	<br />
 	<h3>Certificates</h3>
 	<ul>
 	<li>IBM Data Science Professional Certificate by IBM on Coursera</li>
 	<li>Professional Certificate of "DeepLearning.AI TensorFlow Developer", by DeepLearning.AI on Coursera</li>
 	</ul>
-		
+	<br />	
 	<h3>Research specialism</h3>
 	<ul>
 	<li>Computer vision</li>
 	<li>Machine learning</li>
 	</ul>
-
+    <br />
 	<h3>Skills & experience</h3>
 	<ul>
 	<li>Programming languages: Python, Java, JavaScript, C++</li>
@@ -41,8 +41,7 @@ export default function CV() {
 	<li>Machine learning library: Tensorflow, scikit-learn, Weka</li>
 	<li>Computer vision library: OpenCV, scikit-image</li>
 	</ul>
-	</div>
-	  
+	</div>	  
     </>
   );
 }
