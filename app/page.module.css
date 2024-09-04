@@ -228,3 +228,20 @@
     transform: rotate(0deg);
   }
 }
+
+
+.header {
+  color: purple;
+  background-color: Lavender;
+  padding: 5px;
+}  
+
+.footer {
+  background-color: AliceBlue;
+}
+
+.nav {
+  background-color: AliceBlue;
+  padding: 5px;
+}
+

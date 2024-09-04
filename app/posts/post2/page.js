@@ -1,10 +1,13 @@
 import Link from 'next/link';
+import Header from "../../Header.js"
+import Nav from "../../Nav.js"
 
 export default function Page() {
   return (
     <>
-	  <p><Link href="/"> Home </Link> | 
-	  <Link href="/posts"> Posts selection </Link></p> 
+	  <Header />
+	  <Nav />
+	   
       <br />
 	  <h3>Title: About this site</h3>
 	  <p>Date: 25-5-2023</p>
