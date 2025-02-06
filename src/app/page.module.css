@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.header {
+  color: purple;
+  background-color: Lavender;
+  padding: 5px;
+}  
+
+.footer {
+  background-color: AliceBlue;
+}
+
+.nav {
+  background-color: AliceBlue;
+  padding: 5px;
+}
+
