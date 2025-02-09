@@ -11,9 +11,9 @@ const PostPage = async ({ params }) => {
 
   return (
     <div>
-      <h3 className="text-lg">Title: {post.title}</h3><br />
+      <h3>Title: {post.title}</h3><br />
 	  <h4>Date: {post.date}</h4><br />
-      <p className="text-sm">{post.content}</p>
+      <p>{post.content}</p>
     </div>
   );
 };
