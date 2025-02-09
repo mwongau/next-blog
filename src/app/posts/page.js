@@ -1,16 +1,20 @@
-import Link from 'next/link';
-import Header from "../Header.js"
+import Link from "next/link";
+import { initialPosts } from "../../postData";
 
-export default function Page() {
+const PostsPage = () => {
   return (
-    <>	     	
+    <div>
 	  <h2>Blog</h2>
-      <br />
-	  <p>Select post title:</p>
 	  <br />
-	  <p><Link href="/posts/post1">Creation of blog</Link></p>
-      <p><Link href="/posts/post2">About this site</Link></p>
-	  <p><Link href="/posts/post3">Software update</Link></p> 
-    </>
+	  <h4>Select post to view:</h4>
+	  <br />
+      {initialPosts.map((post) => (
+        <div key={post.id}>
+          <Link href={`/posts/${post.id}`}><h4 className="font-bold">{post.title}</h4></Link>
+        </div>
+      ))}
+    </div>
   );
-}
+};
+
+export default PostsPage;

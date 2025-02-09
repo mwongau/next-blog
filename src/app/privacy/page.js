@@ -8,7 +8,7 @@ function Privacy() {
 	<br />
 	<h3>Who we are</h3>
 	<br />
-	<p>Our website address is: https://mwong.vercel.app</p>
+	
 	<p>This is the personal site of M. Wong.</p>
 	<br />
 	<h3>Contact</h3>
