@@ -1,6 +1,5 @@
 import styles from "./page.module.css";
-import Link from 'next/link';
-import Header from "./Header.js"
+
 export default function Home() {
   return (
     <div>  

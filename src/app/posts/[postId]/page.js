@@ -1,9 +1,9 @@
-import { initialPosts } from "../../../postData";
+import { myPosts } from "../../../postData";
 
 const PostPage = async ({ params }) => {
   const { postId } = await params;
 
-  const post = initialPosts.find((post) => post.id === postId);
+  const post = myPosts.find((post) => post.id === postId);
 
   if (!post) {
     return <div>Post not found</div>;

@@ -1,6 +1,3 @@
-import Link from 'next/link'
-import Header from '../Header.js'
-
 export default function CV() {
   return (
     <> 
