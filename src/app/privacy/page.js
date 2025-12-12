@@ -6,7 +6,7 @@ function Privacy() {
 	<h3>Who we are</h3>
 	<br />
 	
-	<p>This is the personal site of M. Wong.</p>
+	<p>This is the personal site of M Wong.</p>
 	<br />
 	<h3>Contact</h3>
 	<br />
