@@ -19,10 +19,10 @@ function Privacy() {
 	
 	<h3>Server Logs</h3>
 	<br />
-    <p>Vercel may maintain standard server logs. These logs typically include information such as 
-	IP address, browser type, and the pages requested. This information is used for security, 
-    performance monitoring, and operational purposes. This site does not access, control, or 
-	use these logs.</p>
+    <p>The hosting provider may maintain standard server logs. These logs typically include 
+	information such as IP address, browser type, and the pages requested. This information is 
+	used for security, performance monitoring, and operational purposes. This site does not 
+	access, control, or use these logs.</p>
 	<br />
 	
 	<h3>Personal Data</h3>
