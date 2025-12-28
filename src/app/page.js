@@ -10,9 +10,6 @@ export default function Home() {
 	  Electronic Engineering. I am also interested in web app development. This site is built 
 	  by using Next.js, React.js, JavaScript, HTML and CSS. Hosting is done by Vercel.</p>
 	  <br />
-	  <p className={styles.footer}>This site might use cookies to improve the browsing experience
-	  of users. If you continue to use this site, it will be assumed that you agree to the use 
-	  of cookies.</p> 
     </div>
   );
 }
