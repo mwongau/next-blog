@@ -1,7 +1,7 @@
 function Privacy() {
   return (
     <> 	
-	<h2>Privacy Policy</h2>
+	<h2>Privacy Notice</h2>
 	<br />
 	<h3>Overview</h3>
 	<br />	
@@ -37,12 +37,13 @@ function Privacy() {
 	using the contact email below:</p>
 
 	<p>Email: mwong[at]mwongsite.com, replace [at] by @ </p>
+	<br />
 	<p>If you contact the site author by email, your email address and other information 
 	you provide to the site author will be stored in the email account of the site author 
 	so that the site author can respond to your email. The stored information might be used 
 	to answer your future email if you contact the site author again in the future.</p>
-	
-	<p>The above privacy policy can be changed at any time by 	the site author without 
+	<br />
+	<p>The above privacy policy can be changed at any time by the site author without 
 	giving notice.</p>	
 	</>
 );
