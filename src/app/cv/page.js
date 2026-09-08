@@ -6,8 +6,8 @@ export default function CV() {
 	<h3>Academic degrees</h3>
 	<ul>
 	<li>PhD in Computer Science </li>
-	<li>M.Sc in Electrical & Electronic Engineering</li>
-	<li>B.Sc (Hons.) in Electrical & Electronic Engineering</li>
+	<li>M.Sc in Electrical and Electronic Engineering</li>
+	<li>B.Sc (Hons.) in Electrical and Electronic Engineering</li>
 	</ul>
 	<br />
 	<h3>Certificates</h3>
@@ -26,7 +26,7 @@ export default function CV() {
 	<ul>
 	<li>Programming languages: Python, Java, JavaScript, C++, C#, PHP</li>
 	<li>Web frameworks: Flask, Django, React.js, Next.js, Svelte, SvelteKit, Vue.js</li>
-	<li>Machine learning library: Tensorflow, scikit-learn</li>
+	<li>Machine learning library: Tensorflow, Keras 3, scikit-learn</li>
 	<li>Computer vision library: OpenCV, scikit-image</li>
 	</ul>
     </>
